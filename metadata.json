@@ -1,0 +1,7 @@
+{
+  "name": "La Rosa Gastro Bar",
+  "description": "Sitio oficial de La Rosa Gastro Bar en Bogotá. Coctelería de autor, cocina gourmet de bar, terraza al aire libre, ambiente pet-friendly y reservas en línea.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
