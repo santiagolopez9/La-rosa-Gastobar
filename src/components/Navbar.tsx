@@ -60,7 +60,7 @@ export const Navbar = ({ onOpenReservation }: NavbarProps) => {
 
           <button
             onClick={onOpenReservation}
-            className="px-4 py-2 text-xs tracking-wider uppercase font-semibold text-[#090709] bg-gradient-to-r from-[#d99757] via-[#e5a060] to-[#c4874b] hover:brightness-110 rounded-lg shadow-md transition-all active:scale-95 cursor-pointer flex items-center gap-1.5"
+            className="btn-shimmer px-4 py-2 text-xs tracking-wider uppercase font-semibold text-[#090709] bg-gradient-to-r from-[#d99757] via-[#e5a060] to-[#c4874b] hover:brightness-110 rounded-lg shadow-md transition-all active:scale-95 cursor-pointer flex items-center gap-1.5"
           >
             <Calendar className="w-3.5 h-3.5" />
             <span>Reservar</span>

@@ -5,6 +5,8 @@ export interface MenuItem {
   price: number;
   description: string;
   tag: string;
+  image?: string;
+  tastingNote?: string;
   isSignature?: boolean;
 }
 
@@ -127,6 +129,8 @@ export const CURATED_MENU: MenuItem[] = [
     price: 38000,
     description: 'Nuestra firma en copa de cristal: destilado botánico infusionado, perfume de rosas rojas y notas cítricas.',
     tag: 'Insignia',
+    image: '/src/assets/images/cocktail_rose_isolated_1790123873322.jpg',
+    tastingNote: 'Floral, equilibrado y aromático. Servido con rosa roja natural.',
     isSignature: true,
   },
   {
@@ -136,6 +140,8 @@ export const CURATED_MENU: MenuItem[] = [
     price: 42000,
     description: 'Mezcal artesanal, escarcha de sal de rosas, frutos del bosque y romero encendido en mesa.',
     tag: 'Ahumado',
+    image: '/src/assets/images/cocktail_signature_rose_1790121437924.jpg',
+    tastingNote: 'Notas ahumadas profundas con final especiado.',
     isSignature: true,
   },
   {
@@ -145,6 +151,8 @@ export const CURATED_MENU: MenuItem[] = [
     price: 36000,
     description: 'Ginebra prémium macerada con pétalos orgánicos, bayas de enebro y tónica rosada fina.',
     tag: 'Clásico floral',
+    image: '/src/assets/images/terrace_acoustic_vibe_1790121460226.jpg',
+    tastingNote: 'Burbuja fina, refrescante y botánica.',
   },
   {
     id: 'c-4',
@@ -153,6 +161,8 @@ export const CURATED_MENU: MenuItem[] = [
     price: 34000,
     description: 'Prosecco, bitter artesanal, infusión de rosas y rodaja de naranja deshidratada.',
     tag: 'Aperitivo',
+    image: '/src/assets/images/hero_gastrobar_ambiance_1790121425802.jpg',
+    tastingNote: 'Ligero, cítrico y chispeante para la terraza.',
   },
 
   // Tapas de bar
@@ -163,6 +173,8 @@ export const CURATED_MENU: MenuItem[] = [
     price: 58000,
     description: 'Selección de quesos madurados, jamón curado, frutos secos, miel aromatizada y pan campesino.',
     tag: 'Para compartir',
+    image: '/src/assets/images/gastrobar_tapas_board_1790121449442.jpg',
+    tastingNote: 'Maridaje ideal con vinos tintos o coctelería botánica.',
     isSignature: true,
   },
   {
@@ -172,6 +184,8 @@ export const CURATED_MENU: MenuItem[] = [
     price: 42000,
     description: 'Trozos crujientes de panceta cocida a fuego lento con reducción dulce de rosas y chips andinos.',
     tag: 'Favorito comensales',
+    image: '/src/assets/images/gourmet_dish_platter_1790123886886.jpg',
+    tastingNote: 'Crocancia exterior y terneza melosa por dentro.',
     isSignature: true,
   },
   {
@@ -181,6 +195,8 @@ export const CURATED_MENU: MenuItem[] = [
     price: 32000,
     description: 'Bechamel suave con virutas de jamón curado y alioli casero de ajo asado.',
     tag: 'Tradición',
+    image: '/src/assets/images/gastrobar_tapas_board_1790121449442.jpg',
+    tastingNote: 'Cremosas por dentro, doradas y crujientes por fuera.',
   },
 
   // Platos Gastrobar
@@ -191,6 +207,8 @@ export const CURATED_MENU: MenuItem[] = [
     price: 44000,
     description: 'Carne angus seleccionada, queso fundido, cebolla caramelizada al vino tinto y pan brioche horneado a diario.',
     tag: 'Plato Fuerte',
+    image: '/src/assets/images/gourmet_dish_platter_1790123886886.jpg',
+    tastingNote: 'Sabor umami pronunciado, jugosa y en pan brioche dorado.',
     isSignature: true,
   },
   {
@@ -200,6 +218,8 @@ export const CURATED_MENU: MenuItem[] = [
     price: 56000,
     description: 'Medallones tiernos en reducción de uvas y hierbas de huerto, acompañados de papas rústicas.',
     tag: 'Corte Prémium',
+    image: '/src/assets/images/gourmet_dish_platter_1790123886886.jpg',
+    tastingNote: 'Corte suave sellado a la brasa con salsa sedosa.',
   },
 
   // Postres
@@ -210,6 +230,8 @@ export const CURATED_MENU: MenuItem[] = [
     price: 22000,
     description: 'Mousse aireado con infusión de rosas naturales sobre base crocante de almendras.',
     tag: 'Dulce Floral',
+    image: '/src/assets/images/cocktail_rose_isolated_1790123873322.jpg',
+    tastingNote: 'Suave, sedoso con sutil acidez de frutos rojos.',
     isSignature: true,
   },
 ];
